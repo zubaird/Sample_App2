@@ -32,7 +32,7 @@ group :test do
   gem 'database_cleaner', '0.7.0'
   # gem 'launchy', '2.1.0'
   # gem 'rb-fsevent', '0.9.1', :require => false
-  # gem 'growl', '1.0.3'
+   gem 'growl', '1.0.3'
 end
 
 group :production do
