@@ -92,7 +92,11 @@ describe User do
 			it {should_not == found_user.authenticate("invalid") }
 			specify { user_for_invalid_password.should be_false }
 		end
-
   	end
+
+    describe "user name is 2cool" do
+      before { @user.name = "2cool"}
+      it { should be_valid}
+    end
 
 end
