@@ -94,9 +94,9 @@ describe User do
 		end
   	end
 
-    describe "user name is 2cool" do
-      before { @user.name = "2cool"}
-      it { should be_valid}
-    end
+    #describe "user name is 2cool" do
+    #  before { @user.name = "2cool"}
+    #  it { should be_valid}
+    #end
 
 end

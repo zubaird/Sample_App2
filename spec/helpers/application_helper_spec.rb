@@ -16,9 +16,7 @@ describe ApplicationHelper do
 			full_title("foo").should =~ /\|/
 		end
 
-
 	end
-
 	
 end
 
