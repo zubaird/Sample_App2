@@ -1,3 +1,2 @@
-# This is a Ruby On Rails sample_app, fully deployable.
-
+# This is a Ruby On Rails sample_app!!
 
